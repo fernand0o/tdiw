@@ -39,7 +39,22 @@
             <form method="post" action="">
                 <!-- completa -->
                 Nom complet:<input type="text" name="nom"><br />
-                
+                Password: <input type = "password" name="password"><br />
+                Grau: <select name = "Grau">
+                    <option value="1">Enginyeria Informàtica</option>
+                    <option value="2">Enginyeria de Sistemes de Telecomunicació</option>
+                    <option value="3">Enginyeria Electrònica de Telecomunicació</option>
+                    <option value="4">Enginyeria Química</option>
+                </select> 
+                <p> Tria la mencio que t'agradi més </p>
+                Menció:<select name="mencio">
+                    <option value="TI">Tec. Inf.</option>
+                    <option value="EC">Eng. Comp.</option>
+                    <option value="ES">Eng. Soft.</option>
+                    <option value="C">Computació</option>
+                </select>
+                <br /><br />
+                <input type="submit" value="Registrar-me" />
             </form>
             <hr />
         </section>
@@ -50,11 +65,19 @@
             </header>
             <table border="1">
                 <!-- completa -->
+                 <tr><th colspan="2">Escola d'Engenyeria </th>
+                 <th colspan="2">Ciències</th></tr>
+                 <tr> <td>Engenyeria Informatica</td> <td>300</td> <td>Matematiques</td> <td>200</td></tr>
+                 <tr><td>>Enginyeria de Sistemes de Telecomunicació</td> <td>150 </td> <td rowspan="2">Fisica</td> <td rowspan="2">100</td></tr>
+                 <tr> <td>Engenyeria Quimica</td> <td>300</td> </tr>
+                 <tr> <td>Total</td> <td>750</td> <td>Total</td> <td>300</td></tr>
             </table>
         </section>
         <!-- SECCIÓ 5 - Peu de pàgina -->
         <footer>
             <!-- completa -->
+            <img src="img/campus-e.png" alt="Imagen no carga" width="200" />
+            <p>&copy;Universitat Autònoma de Barcelona. Campus d'Excel·lència</p>
         </footer>
     </body>
 </html>
